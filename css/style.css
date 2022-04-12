@@ -1,11 +1,12 @@
 * {
     margin: 2px;
+    background-color: #deeddd;
 }
 
 div#home div#profile img {
     border-radius: 50%;
     height: 150px;
-    border: 1.7px solid grey;
+    border: 0.7px solid #d8e9d6;
 }
 
 div#home div#profile {
@@ -15,7 +16,7 @@ div#home div#profile {
 
 div#page-name div.jumbotron h1 {
     font-family: 'Monaveen Luxia Regular';
-
+    margin-left: 190px;
 }
 
 div#page-name div.jumbotron {
@@ -23,6 +24,24 @@ div#page-name div.jumbotron {
 }
 
 div#home div#navbar-area ul li a {
-    background-color: white;
-    color: black;
+    background-color: #AFCFA9;
+    color: #FFFF;
+}
+
+div#home div#navbar-area {
+    padding: 20px 0px;
+}
+
+div#home div#navbar-area ul {
+    padding: 0px 30px;
+}
+
+div#home div#navbar-area ul li a.active {
+    background-color: #97A97F;
+    color: #FFFF;
+}
+
+div#home div#navbar-area ul li a:hover {
+    background-color: #97A97F;
+    color: #FFFF;
 }
