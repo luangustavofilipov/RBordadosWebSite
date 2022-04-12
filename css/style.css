@@ -1,3 +1,28 @@
-footer p a {
-    margin: 5px 15px;
+* {
+    margin: 2px;
+}
+
+div#home div#profile img {
+    border-radius: 50%;
+    height: 150px;
+    border: 1.7px solid grey;
+}
+
+div#home div#profile {
+    width: 162px;
+    float: left;
+}
+
+div#page-name div.jumbotron h1 {
+    font-family: 'Monaveen Luxia Regular';
+
+}
+
+div#page-name div.jumbotron {
+    height: 86px;
+}
+
+div#home div#navbar-area ul li a {
+    background-color: white;
+    color: black;
 }
